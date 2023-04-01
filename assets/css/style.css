@@ -1,0 +1,97 @@
+body{
+    background: linear-gradient(-45deg,rgb(1, 66, 66),rgb(0, 255, 255),rgb(250, 110, 255));
+}
+
+#areaLogo{
+    margin: 10px 10px 20px 50px;
+    height: 70px;
+    width: 110px;
+    position: relative;
+}
+#logo{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    float: left;
+    z-index: 5;
+}
+#logo::first-letter{
+    color: brown;
+    font-size: 40px;
+}
+.circulo{
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+    background-color: red;
+    box-shadow: 3px 3px 1px rgba(0, 0, 0, 0.466);
+}
+
+.cirEsq{
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+}
+.cirDir{
+    background-color: brown;
+    position: absolute;
+    right: 0;
+}
+
+form{
+    width: 80%;
+    height: 90vh;
+    margin: auto;
+}
+
+legend{
+    background-color: #ae34ff;
+    border-radius: 10px;
+    padding: 5px;
+    color: white;
+    font-size: 20px;
+    box-shadow: 3px 3px 1px rgba(0, 0, 0, 0.466);
+}
+
+fieldset{
+    margin: 10px;
+    color: white;
+    font-size: 20px;
+    box-shadow: 3px 3px 1px rgba(0, 0, 0, 0.466);
+    position: relative;
+}
+
+input{
+    border-radius: 10px;
+    border: 2px solid black;
+    padding: 10px;
+    box-shadow: 3px 3px 1px rgba(0, 0, 0, 0.466);
+    margin: 3px;
+}
+
+input[type='submit']{
+    background-color: #ae34ff;
+    color: white;
+    font-size: 20px;
+    width: 80px;
+    height: 40px;
+    border: none;
+}
+
+input[type='submit']:hover{
+    background-color: #8600df;
+}
+
+textarea{
+    box-shadow: 3px 3px 1px rgba(0, 0, 0, 0.466);
+    border-radius: 10px;
+}
+
+.rosa{
+    background-image: url('/assets/imagens/Rosas.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    right: 0;
+}

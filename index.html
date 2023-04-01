@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Formulário</title>
+</head>
+<body>
+    <div id="areaLogo">
+        <div class="circulo cirDir"></div>
+        <div id="logo">Baby Lojas</div>
+        <div class="circulo cirEsq"></div>
+    </div>
+
+    <div class="container">
+        <form action="loja.php" method="POST">
+            <fieldset>
+                <div class="rosa">
+                </div>
+                <legend>Dados Pessoais</legend>
+                <label>
+                    Nome: <br>
+                    <input type="text" name="" id="" required minlength="3" maxlength="15">
+                </label> <br>
+                <label>
+                    Sobrenome: <br>
+                    <input type="text" name="" id="" required minlength="3" maxlength="20">
+                </label> <br>
+                <label>
+                    Email: <br>
+                    <input type="email" name="" id="" required pattern="(^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$)">
+                </label> <br>
+                <label>
+                    Telefone: <br>
+                    <input type="tel" name="" id="">
+                </label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Reclamações</legend>
+                <label>
+                    Digite aqui sua reclamação: <br>
+                    <textarea name="" id="" cols="40" rows="13" required>
+
+                    </textarea> <br>
+                </label>
+            </fieldset>
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+</body>
+</html>
