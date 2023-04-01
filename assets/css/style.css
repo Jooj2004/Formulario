@@ -87,7 +87,7 @@ textarea{
 }
 
 .rosa{
-    background-image: url('/assets/imagens/Rosas.png');
+    background-image: url('../imagens/Rosas.png');
     background-size: cover;
     background-repeat: no-repeat;
     width: 300px;
